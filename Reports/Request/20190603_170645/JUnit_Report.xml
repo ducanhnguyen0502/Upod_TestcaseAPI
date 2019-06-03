@@ -1,0 +1,682 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Request" time="10" tests="3" failures="3" errors="0">
+   <testsuite name="Request" tests="3" failures="3" errors="0" time="10" timestamp="2019-06-03 17:06:51" hostname="User - AnhNDSE63049" id="Test Suites/Request">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\IT\\Katalon\\Intern Testing\\Upod\\Upod_TestAPI\\Reports\\Request\\20190603_170645"/>
+         <property name="logFiles" value="D:\\IT\\Katalon\\Intern Testing\\Upod\\Upod_TestAPI\\Reports\\Request\\20190603_170645\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="User - AnhNDSE63049"/>
+         <property name="hostAddress" value="192.168.112.1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.2.2"/>
+      </properties>
+      <testcase name="Test Cases/Request/GetRequest_view" classname="Test Cases/Request/GetRequest_view" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Request/GetRequest_view FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected element property value '2019-02-16 09:47:57' is not equal with actual property value '2019/02/16 09:47:57'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:123)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$1.call(Unknown Source)
+	at GetRequest_view.run(GetRequest_view:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559556409624.run(TempTestSuite1559556409624.groovy:35)
+"/>
+         <system-out><![CDATA[2019-06-03 17:06:51 - [TEST_CASE][FAILED] - Test Cases/Request/GetRequest_view: Test Cases/Request/GetRequest_view FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected element property value '2019-02-16 09:47:57' is not equal with actual property value '2019/02/16 09:47:57'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:123)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$1.call(Unknown Source)
+	at GetRequest_view.run(GetRequest_view:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559556409624.run(TempTestSuite1559556409624.groovy:35)
+
+
+2019-06-03 17:06:52 - [TEST_STEP][PASSED] - getRequest_view = sendRequest(findTestObject("Request/GetRequest_view")): Send request successfully
+
+2019-06-03 17:06:55 - [MESSAGE][INFO] - HAR: D:\IT\Katalon\Intern Testing\Upod\Upod_TestAPI\Reports\Request\20190603_170645\requests\main\null.har
+
+2019-06-03 17:06:55 - [MESSAGE][PASSED] - Send request successfully
+
+2019-06-03 17:06:55 - [TEST_STEP][PASSED] - verifyResponseStatusCode(getRequest_view, 200): Verify response status code successfully
+
+2019-06-03 17:06:55 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-06-03 17:06:55 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getRequest_view, "ObjReturn.request_id", 1): Verify element property value successfully
+
+2019-06-03 17:06:55 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-06-03 17:06:55 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getRequest_view, "ObjReturn.agency_id", 31): Verify element property value successfully
+
+2019-06-03 17:06:55 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-06-03 17:06:55 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getRequest_view, "ObjReturn.agency_name", "The Coffee House - Chi nhánh số 1"): Verify element property value successfully
+
+2019-06-03 17:06:55 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-06-03 17:06:55 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getRequest_view, "ObjReturn.agency_address", "88 Ngô Tất Tố, Quận Bình Thạnh"): Verify element property value successfully
+
+2019-06-03 17:06:55 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-06-03 17:06:55 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getRequest_view, "ObjReturn.request_category_id", 3): Verify element property value successfully
+
+2019-06-03 17:06:55 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-06-03 17:06:55 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getRequest_view, "ObjReturn.service_id", 1): Verify element property value successfully
+
+2019-06-03 17:06:55 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-06-03 17:06:55 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getRequest_view, "ObjReturn.service_name", "WIFI"): Verify element property value successfully
+
+2019-06-03 17:06:55 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-06-03 17:06:55 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getRequest_view, "ObjReturn.service_item_id", 6): Verify element property value successfully
+
+2019-06-03 17:06:55 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-06-03 17:06:55 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getRequest_view, "ObjReturn.service_item_name", "Wifi chậm"): Verify element property value successfully
+
+2019-06-03 17:06:55 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-06-03 17:06:55 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getRequest_view, "ObjReturn.request_name", "The Coffee House - Chi nhánh số 1 - Wifi chậm"): Verify element property value successfully
+
+2019-06-03 17:06:55 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-06-03 17:06:55 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getRequest_view, "ObjReturn.request_description", "acd"): Verify element property value successfully
+
+2019-06-03 17:06:55 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-06-03 17:06:55 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getRequest_view, "ObjReturn.agency_phone", "0397934468"): Verify element property value successfully
+
+2019-06-03 17:06:55 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-06-03 17:06:55 - [TEST_STEP][FAILED] - verifyElementPropertyValue(getRequest_view, "ObjReturn.create_date", "2019-02-16 09:47:57"): Expected element property value '2019-02-16 09:47:57' is not equal with actual property value '2019/02/16 09:47:57'
+
+2019-06-03 17:06:55 - [MESSAGE][FAILED] - Expected element property value '2019-02-16 09:47:57' is not equal with actual property value '2019/02/16 09:47:57'
+
+2019-06-03 17:06:55 - [TEST_STEP][FAILED] - verifyElementPropertyValue(getRequest_view, "ObjReturn.update_date", "2019-05-29 15:48:25"): Expected element property value '2019-05-29 15:48:25' is not equal with actual property value '2019/06/01 19:20:33'
+
+2019-06-03 17:06:56 - [MESSAGE][FAILED] - Expected element property value '2019-05-29 15:48:25' is not equal with actual property value '2019/06/01 19:20:33'
+
+2019-06-03 17:06:56 - [TEST_STEP][FAILED] - verifyElementPropertyValue(getRequest_view, "ObjReturn.start_time", "2019-04-02 00:00:00"): Expected element property value '2019-04-02 00:00:00' is not equal with actual property value '2019/06/01 12:06:42'
+
+2019-06-03 17:06:56 - [MESSAGE][FAILED] - Expected element property value '2019-04-02 00:00:00' is not equal with actual property value '2019/06/01 12:06:42'
+
+2019-06-03 17:06:56 - [TEST_STEP][FAILED] - verifyElementPropertyValue(getRequest_view, "ObjReturn.end_time", "2019-04-16 09:45:37"): Expected element property value '2019-04-16 09:45:37' is not equal with actual property value '2019/06/01 12:06:42'
+
+2019-06-03 17:06:56 - [MESSAGE][FAILED] - Expected element property value '2019-04-16 09:45:37' is not equal with actual property value '2019/06/01 12:06:42'
+
+2019-06-03 17:06:56 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getRequest_view, "ObjReturn.request_status_value", 0): Verify element property value successfully
+
+2019-06-03 17:06:56 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-06-03 17:06:56 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getRequest_view, "ObjReturn.it_supporter_name", "Lê Thị Ẫn"): Verify element property value successfully
+
+2019-06-03 17:06:56 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-06-03 17:06:56 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getRequest_view, "ObjReturn.it_supporter_phone", "0928374564"): Verify element property value successfully
+
+2019-06-03 17:06:56 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-06-03 17:06:56 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getRequest_view, "ObjReturn.rate", "6"): Verify element property value successfully
+
+2019-06-03 17:06:56 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-06-03 17:06:56 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getRequest_view, "ObjReturn.priority_value", "3"): Verify element property value successfully
+
+2019-06-03 17:06:56 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-06-03 17:06:56 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getRequest_view, "ObjReturn.request_problem", "string"): Verify element property value successfully
+
+2019-06-03 17:06:56 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-06-03 17:06:56 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getRequest_view, "ObjReturn.request_solution", "string"): Verify element property value successfully
+
+2019-06-03 17:06:56 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-06-03 17:06:56 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getRequest_view, "ObjReturn.list_ticket[0].ticket_id", 1): Verify element property value successfully
+
+2019-06-03 17:06:56 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-06-03 17:06:56 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getRequest_view, "ObjReturn.list_ticket[0].device_id", 43): Verify element property value successfully
+
+2019-06-03 17:06:56 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-06-03 17:06:56 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getRequest_view, "ObjReturn.list_ticket[0].device_code", "N301"): Verify element property value successfully
+
+2019-06-03 17:06:56 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-06-03 17:06:56 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getRequest_view, "ObjReturn.list_ticket[0].description", "Anh test"): Verify element property value successfully
+
+2019-06-03 17:06:56 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-06-03 17:06:56 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getRequest_view, "ObjReturn.list_ticket[0].device_name", "Router TENDA N301 300Mbps Wireless N"): Verify element property value successfully
+
+2019-06-03 17:06:56 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-06-03 17:06:56 - [TEST_STEP][FAILED] - verifyElementPropertyValue(getRequest_view, "ObjReturn.list_ticket[0].create_date", "2019-01-16 09:48:07"): Expected element property value '2019-01-16 09:48:07' is not equal with actual property value '2019/01/16 09:48:07'
+
+2019-06-03 17:06:56 - [MESSAGE][FAILED] - Expected element property value '2019-01-16 09:48:07' is not equal with actual property value '2019/01/16 09:48:07'
+
+2019-06-03 17:06:56 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getRequest_view, "ObjReturn.list_ticket[0].creator", "ADMIN"): Verify element property value successfully
+
+2019-06-03 17:06:56 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-06-03 17:06:56 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getRequest_view, "ObjReturn.history[5].request_history_id", 7): Verify element property value successfully
+
+2019-06-03 17:06:56 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-06-03 17:06:56 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getRequest_view, "ObjReturn.history[5].request_id", 1): Verify element property value successfully
+
+2019-06-03 17:06:56 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-06-03 17:06:56 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getRequest_view, "ObjReturn.history[5].pre_supporter_name", "Phạm Phú Tiến"): Verify element property value successfully
+
+2019-06-03 17:06:56 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-06-03 17:06:56 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getRequest_view, "ObjReturn.history[5].pre_status", 3): Verify element property value successfully
+
+2019-06-03 17:06:56 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-06-03 17:06:56 - [TEST_STEP][FAILED] - verifyElementPropertyValue(getRequest_view, "ObjReturn.history[5].create_date", "2019-01-17 15:39:04"): Expected element property value '2019-01-17 15:39:04' is not equal with actual property value '2019/01/17 15:39:04'
+
+2019-06-03 17:06:56 - [MESSAGE][FAILED] - Expected element property value '2019-01-17 15:39:04' is not equal with actual property value '2019/01/17 15:39:04'
+
+2019-06-03 17:06:56 - [TEST_STEP][FAILED] - verifyElementPropertyValue(getRequest_view, "ObjReturn.history[5].start_date", "2019-01-17 15:39:04"): Expected element property value '2019-01-17 15:39:04' is not equal with actual property value '2019/01/17 15:39:04'
+
+2019-06-03 17:06:56 - [MESSAGE][FAILED] - Expected element property value '2019-01-17 15:39:04' is not equal with actual property value '2019/01/17 15:39:04'
+
+2019-06-03 17:06:56 - [TEST_STEP][FAILED] - verifyElementPropertyValue(getRequest_view, "ObjReturn.history[5].end_date", "2019-01-17 16:39:04"): Expected element property value '2019-01-17 16:39:04' is not equal with actual property value '2019/01/17 16:39:04'
+
+2019-06-03 17:06:56 - [MESSAGE][FAILED] - Expected element property value '2019-01-17 16:39:04' is not equal with actual property value '2019/01/17 16:39:04']]></system-out>
+         <system-err><![CDATA[2019-06-03 17:06:51 - [TEST_CASE][FAILED] - Test Cases/Request/GetRequest_view: Test Cases/Request/GetRequest_view FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected element property value '2019-02-16 09:47:57' is not equal with actual property value '2019/02/16 09:47:57'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:123)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$1.call(Unknown Source)
+	at GetRequest_view.run(GetRequest_view:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559556409624.run(TempTestSuite1559556409624.groovy:35)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Request/GetRequestByAgencyID_index" classname="Test Cases/Request/GetRequestByAgencyID_index" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Request/GetRequestByAgencyID_index FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected element property value '2019-01-16 09:54:15' is not equal with actual property value '2019/01/16 09:54:15'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:123)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$1.call(Unknown Source)
+	at GetRequestByAgencyID_index.run(GetRequestByAgencyID_index:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559556409624.run(TempTestSuite1559556409624.groovy:35)
+"/>
+         <system-out><![CDATA[2019-06-03 17:06:56 - [TEST_CASE][FAILED] - Test Cases/Request/GetRequestByAgencyID_index: Test Cases/Request/GetRequestByAgencyID_index FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected element property value '2019-01-16 09:54:15' is not equal with actual property value '2019/01/16 09:54:15'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:123)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$1.call(Unknown Source)
+	at GetRequestByAgencyID_index.run(GetRequestByAgencyID_index:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559556409624.run(TempTestSuite1559556409624.groovy:35)
+
+
+2019-06-03 17:06:57 - [TEST_STEP][PASSED] - a = sendRequest(findTestObject("Request/GetRequestByAgencyID_index")): Send request successfully
+
+2019-06-03 17:06:57 - [MESSAGE][INFO] - HAR: D:\IT\Katalon\Intern Testing\Upod\Upod_TestAPI\Reports\Request\20190603_170645\requests\main\null.har
+
+2019-06-03 17:06:57 - [MESSAGE][PASSED] - Send request successfully
+
+2019-06-03 17:06:57 - [TEST_STEP][PASSED] - verifyResponseStatusCode(a, 200): Verify response status code successfully
+
+2019-06-03 17:06:57 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-06-03 17:06:57 - [TEST_STEP][PASSED] - verifyElementPropertyValue(a, "ObjReturn[21].request_id", 2): Verify element property value successfully
+
+2019-06-03 17:06:57 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-06-03 17:06:57 - [TEST_STEP][PASSED] - verifyElementPropertyValue(a, "ObjReturn[21].agency_id", 31): Verify element property value successfully
+
+2019-06-03 17:06:57 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-06-03 17:06:57 - [TEST_STEP][PASSED] - verifyElementPropertyValue(a, "ObjReturn[21].agency_name", "The Coffee House - Chi nhánh số 1"): Verify element property value successfully
+
+2019-06-03 17:06:57 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-06-03 17:06:57 - [TEST_STEP][PASSED] - verifyElementPropertyValue(a, "ObjReturn[21].agency_address", "88 Ngô Tất Tố, Quận Bình Thạnh"): Verify element property value successfully
+
+2019-06-03 17:06:57 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-06-03 17:06:57 - [TEST_STEP][PASSED] - verifyElementPropertyValue(a, "ObjReturn[21].request_category_id", 3): Verify element property value successfully
+
+2019-06-03 17:06:57 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-06-03 17:06:57 - [TEST_STEP][PASSED] - verifyElementPropertyValue(a, "ObjReturn[21].service_id", 2): Verify element property value successfully
+
+2019-06-03 17:06:57 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-06-03 17:06:57 - [TEST_STEP][PASSED] - verifyElementPropertyValue(a, "ObjReturn[21].service_name", "Camera"): Verify element property value successfully
+
+2019-06-03 17:06:57 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-06-03 17:06:57 - [TEST_STEP][PASSED] - verifyElementPropertyValue(a, "ObjReturn[21].service_item_id", 3): Verify element property value successfully
+
+2019-06-03 17:06:57 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-06-03 17:06:57 - [TEST_STEP][PASSED] - verifyElementPropertyValue(a, "ObjReturn[21].service_item_name", "Camera không hiện màu"): Verify element property value successfully
+
+2019-06-03 17:06:57 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-06-03 17:06:57 - [TEST_STEP][PASSED] - verifyElementPropertyValue(a, "ObjReturn[21].request_name", "The Coffee House - Chi nhánh số 1 - Camera không hiện màu"): Verify element property value successfully
+
+2019-06-03 17:06:57 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-06-03 17:06:57 - [TEST_STEP][PASSED] - verifyElementPropertyValue(a, "ObjReturn[21].request_description", "dsdsfdsfsfdfdsfdsfdsfdrgvrdfgdfgdfgdfgdffg"): Verify element property value successfully
+
+2019-06-03 17:06:57 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-06-03 17:06:57 - [TEST_STEP][PASSED] - verifyElementPropertyValue(a, "ObjReturn[21].agency_phone", "0397934468"): Verify element property value successfully
+
+2019-06-03 17:06:57 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-06-03 17:06:57 - [TEST_STEP][FAILED] - verifyElementPropertyValue(a, "ObjReturn[21].create_date", "2019-01-16 09:54:15"): Expected element property value '2019-01-16 09:54:15' is not equal with actual property value '2019/01/16 09:54:15'
+
+2019-06-03 17:06:57 - [MESSAGE][FAILED] - Expected element property value '2019-01-16 09:54:15' is not equal with actual property value '2019/01/16 09:54:15'
+
+2019-06-03 17:06:57 - [TEST_STEP][FAILED] - verifyElementPropertyValue(a, "ObjReturn[21].update_date", "2019-06-03 15:22:55"): Expected element property value '2019-06-03 15:22:55' is not equal with actual property value '2019/06/03 17:01:56'
+
+2019-06-03 17:06:57 - [MESSAGE][FAILED] - Expected element property value '2019-06-03 15:22:55' is not equal with actual property value '2019/06/03 17:01:56'
+
+2019-06-03 17:06:57 - [TEST_STEP][FAILED] - verifyElementPropertyValue(a, "ObjReturn[21].start_time", "2018-05-31 06:19:26"): Expected element property value '2018-05-31 06:19:26' is not equal with actual property value '2018/05/31 06:19:26'
+
+2019-06-03 17:06:57 - [MESSAGE][FAILED] - Expected element property value '2018-05-31 06:19:26' is not equal with actual property value '2018/05/31 06:19:26'
+
+2019-06-03 17:06:57 - [TEST_STEP][FAILED] - verifyElementPropertyValue(a, "ObjReturn[21].end_time", "2018-05-31 06:19:26"): Expected element property value '2018-05-31 06:19:26' is not equal with actual property value '2018/05/31 06:19:26'
+
+2019-06-03 17:06:58 - [MESSAGE][FAILED] - Expected element property value '2018-05-31 06:19:26' is not equal with actual property value '2018/05/31 06:19:26'
+
+2019-06-03 17:06:58 - [TEST_STEP][PASSED] - verifyElementPropertyValue(a, "ObjReturn[21].request_status_value", 2): Verify element property value successfully
+
+2019-06-03 17:06:58 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-06-03 17:06:58 - [TEST_STEP][PASSED] - verifyElementPropertyValue(a, "ObjReturn[21].it_supporter_name", "Phạm Phú Tiến"): Verify element property value successfully
+
+2019-06-03 17:06:58 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-06-03 17:06:58 - [TEST_STEP][PASSED] - verifyElementPropertyValue(a, "ObjReturn[21].it_supporter_phone", "0916512300"): Verify element property value successfully
+
+2019-06-03 17:06:58 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-06-03 17:06:58 - [TEST_STEP][PASSED] - verifyElementPropertyValue(a, "ObjReturn[21].feedback", "gf"): Verify element property value successfully
+
+2019-06-03 17:06:58 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-06-03 17:06:58 - [TEST_STEP][PASSED] - verifyElementPropertyValue(a, "ObjReturn[21].rate", 3): Verify element property value successfully
+
+2019-06-03 17:06:58 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-06-03 17:06:58 - [TEST_STEP][PASSED] - verifyElementPropertyValue(a, "ObjReturn[21].priority_value", 1): Verify element property value successfully
+
+2019-06-03 17:06:58 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-06-03 17:06:58 - [TEST_STEP][PASSED] - verifyElementPropertyValue(a, "ObjReturn[21].request_problem", "problem"): Verify element property value successfully
+
+2019-06-03 17:06:58 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-06-03 17:06:58 - [TEST_STEP][PASSED] - verifyElementPropertyValue(a, "ObjReturn[21].request_solution", "solution"): Verify element property value successfully
+
+2019-06-03 17:06:58 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-06-03 17:06:58 - [TEST_STEP][PASSED] - verifyElementPropertyValue(a, "ObjReturn[21].list_ticket[0].ticket_id", 2): Verify element property value successfully
+
+2019-06-03 17:06:58 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-06-03 17:06:58 - [TEST_STEP][PASSED] - verifyElementPropertyValue(a, "ObjReturn[21].list_ticket[0].device_id", 45): Verify element property value successfully
+
+2019-06-03 17:06:58 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-06-03 17:06:58 - [TEST_STEP][PASSED] - verifyElementPropertyValue(a, "ObjReturn[21].list_ticket[0].device_code", "KX-S2001CA4"): Verify element property value successfully
+
+2019-06-03 17:06:58 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-06-03 17:06:58 - [TEST_STEP][PASSED] - verifyElementPropertyValue(a, "ObjReturn[21].list_ticket[0].device_name", "Camera KBVISION KX-S2001CA4"): Verify element property value successfully
+
+2019-06-03 17:06:58 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-06-03 17:06:58 - [TEST_STEP][FAILED] - verifyElementPropertyValue(a, "ObjReturn[21].list_ticket[0].create_date", "2019-01-16 09:54:15.700"): Expected element property value '2019-01-16 09:54:15.700' is not equal with actual property value '2019/01/16 09:54:15'
+
+2019-06-03 17:06:58 - [MESSAGE][FAILED] - Expected element property value '2019-01-16 09:54:15.700' is not equal with actual property value '2019/01/16 09:54:15']]></system-out>
+         <system-err><![CDATA[2019-06-03 17:06:56 - [TEST_CASE][FAILED] - Test Cases/Request/GetRequestByAgencyID_index: Test Cases/Request/GetRequestByAgencyID_index FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected element property value '2019-01-16 09:54:15' is not equal with actual property value '2019/01/16 09:54:15'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:123)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$1.call(Unknown Source)
+	at GetRequestByAgencyID_index.run(GetRequestByAgencyID_index:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559556409624.run(TempTestSuite1559556409624.groovy:35)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Request/GetRequestByitSupporterID_index" classname="Test Cases/Request/GetRequestByitSupporterID_index" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Request/GetRequestByitSupporterID_index FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected element property value '2019-02-16 09:47:57' is not equal with actual property value '2019/02/16 09:47:57'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:123)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$1.call(Unknown Source)
+	at GetRequestByitSupporterID_index.run(GetRequestByitSupporterID_index:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559556409624.run(TempTestSuite1559556409624.groovy:35)
+"/>
+         <system-out><![CDATA[2019-06-03 17:06:58 - [TEST_CASE][FAILED] - Test Cases/Request/GetRequestByitSupporterID_index: Test Cases/Request/GetRequestByitSupporterID_index FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected element property value '2019-02-16 09:47:57' is not equal with actual property value '2019/02/16 09:47:57'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:123)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$1.call(Unknown Source)
+	at GetRequestByitSupporterID_index.run(GetRequestByitSupporterID_index:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559556409624.run(TempTestSuite1559556409624.groovy:35)
+
+
+2019-06-03 17:06:58 - [TEST_STEP][PASSED] - a = sendRequest(findTestObject("Request/GetRequestByitSupporterID_index")): Send request successfully
+
+2019-06-03 17:06:58 - [MESSAGE][INFO] - HAR: D:\IT\Katalon\Intern Testing\Upod\Upod_TestAPI\Reports\Request\20190603_170645\requests\main\null.har
+
+2019-06-03 17:06:59 - [MESSAGE][PASSED] - Send request successfully
+
+2019-06-03 17:06:59 - [TEST_STEP][PASSED] - verifyResponseStatusCode(a, 200): Verify response status code successfully
+
+2019-06-03 17:06:59 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-06-03 17:06:59 - [TEST_STEP][PASSED] - verifyElementPropertyValue(a, "ObjReturn[2].request_id", 1): Verify element property value successfully
+
+2019-06-03 17:06:59 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-06-03 17:06:59 - [TEST_STEP][PASSED] - verifyElementPropertyValue(a, "ObjReturn[2].request_name", "The Coffee House - Chi nhánh số 1 - Wifi chậm"): Verify element property value successfully
+
+2019-06-03 17:06:59 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-06-03 17:06:59 - [TEST_STEP][FAILED] - verifyElementPropertyValue(a, "ObjReturn[2].date_create", "2019-02-16 09:47:57"): Expected element property value '2019-02-16 09:47:57' is not equal with actual property value '2019/02/16 09:47:57'
+
+2019-06-03 17:06:59 - [MESSAGE][FAILED] - Expected element property value '2019-02-16 09:47:57' is not equal with actual property value '2019/02/16 09:47:57'
+
+2019-06-03 17:06:59 - [TEST_STEP][PASSED] - verifyElementPropertyValue(a, "ObjReturn[2].agency_name", "The Coffee House - Chi nhánh số 1"): Verify element property value successfully
+
+2019-06-03 17:06:59 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-06-03 17:06:59 - [TEST_STEP][PASSED] - verifyElementPropertyValue(a, "ObjReturn[2].itsupporter_name", "Lê Thị Ẫn"): Verify element property value successfully
+
+2019-06-03 17:06:59 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-06-03 17:06:59 - [TEST_STEP][PASSED] - verifyElementPropertyValue(a, "ObjReturn[2].issue_name[0]", "acd"): Verify element property value successfully
+
+2019-06-03 17:06:59 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-06-03 17:06:59 - [TEST_STEP][PASSED] - verifyElementPropertyValue(a, "ObjReturn[2].request_status", 0): Verify element property value successfully
+
+2019-06-03 17:06:59 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-06-03 17:06:59 - [TEST_STEP][PASSED] - verifyElementPropertyValue(a, "ObjReturn[2].request_status_id", 3): Verify element property value successfully
+
+2019-06-03 17:06:59 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[2019-06-03 17:06:58 - [TEST_CASE][FAILED] - Test Cases/Request/GetRequestByitSupporterID_index: Test Cases/Request/GetRequestByitSupporterID_index FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected element property value '2019-02-16 09:47:57' is not equal with actual property value '2019/02/16 09:47:57'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:123)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$1.call(Unknown Source)
+	at GetRequestByitSupporterID_index.run(GetRequestByitSupporterID_index:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559556409624.run(TempTestSuite1559556409624.groovy:35)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Request/PatchRequest" classname="Test Cases/Request/PatchRequest" status="PASSED">
+         <system-out><![CDATA[2019-06-03 17:06:59 - [TEST_CASE][PASSED] - Test Cases/Request/PatchRequest: Test Cases/Request/PatchRequest
+
+2019-06-03 17:07:00 - [TEST_STEP][PASSED] - a = sendRequest(findTestObject("Request/PatchRequest")): Send request successfully
+
+2019-06-03 17:07:01 - [MESSAGE][INFO] - HAR: D:\IT\Katalon\Intern Testing\Upod\Upod_TestAPI\Reports\Request\20190603_170645\requests\main\null.har
+
+2019-06-03 17:07:01 - [MESSAGE][PASSED] - Send request successfully
+
+2019-06-03 17:07:01 - [TEST_STEP][PASSED] - verifyResponseStatusCode(a, 200): Verify response status code successfully
+
+2019-06-03 17:07:01 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Request/PostRequest" classname="Test Cases/Request/PostRequest" status="PASSED">
+         <system-out><![CDATA[2019-06-03 17:07:01 - [TEST_CASE][PASSED] - Test Cases/Request/PostRequest: Test Cases/Request/PostRequest
+
+2019-06-03 17:07:01 - [TEST_STEP][PASSED] - a = sendRequest(findTestObject("Request/PostRequest")): Send request successfully
+
+2019-06-03 17:07:02 - [MESSAGE][INFO] - HAR: D:\IT\Katalon\Intern Testing\Upod\Upod_TestAPI\Reports\Request\20190603_170645\requests\main\null.har
+
+2019-06-03 17:07:02 - [MESSAGE][PASSED] - Send request successfully
+
+2019-06-03 17:07:02 - [TEST_STEP][PASSED] - verifyResponseStatusCode(a, 200): Verify response status code successfully
+
+2019-06-03 17:07:02 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Request/PutRequest" classname="Test Cases/Request/PutRequest" status="PASSED">
+         <system-out><![CDATA[2019-06-03 17:07:02 - [TEST_CASE][PASSED] - Test Cases/Request/PutRequest: Test Cases/Request/PutRequest
+
+2019-06-03 17:07:02 - [TEST_STEP][PASSED] - a = sendRequest(findTestObject("Request/PutRequest")): Send request successfully
+
+2019-06-03 17:07:02 - [MESSAGE][INFO] - HAR: D:\IT\Katalon\Intern Testing\Upod\Upod_TestAPI\Reports\Request\20190603_170645\requests\main\null.har
+
+2019-06-03 17:07:02 - [MESSAGE][PASSED] - Send request successfully
+
+2019-06-03 17:07:02 - [TEST_STEP][PASSED] - verifyResponseStatusCode(a, 200): Verify response status code successfully
+
+2019-06-03 17:07:02 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-06-03 17:06:51 - [TEST_SUITE][FAILED] - Request: Test Cases/Request/GetRequest_view FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected element property value '2019-02-16 09:47:57' is not equal with actual property value '2019/02/16 09:47:57'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:123)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$1.call(Unknown Source)
+	at GetRequest_view.run(GetRequest_view:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559556409624.run(TempTestSuite1559556409624.groovy:35)]]></system-out>
+      <system-err><![CDATA[2019-06-03 17:06:51 - [TEST_SUITE][FAILED] - Request: Test Cases/Request/GetRequest_view FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected element property value '2019-02-16 09:47:57' is not equal with actual property value '2019/02/16 09:47:57'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:123)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$1.call(Unknown Source)
+	at GetRequest_view.run(GetRequest_view:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559556409624.run(TempTestSuite1559556409624.groovy:35)]]></system-err>
+   </testsuite>
+</testsuites>
