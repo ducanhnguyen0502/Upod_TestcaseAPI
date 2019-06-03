@@ -1,0 +1,100 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Request,,,,2019-06-03 17:12:45,2019-06-03 17:12:57,12.207s,FAILED
+,,,,,,,
+Test Cases/Request/GetRequest_view,,,,2019-06-03 17:12:45,2019-06-03 17:12:50,5.083s,FAILED
+"getRequest_view = sendRequest(findTestObject(""Request/GetRequest_view""))",,,,2019-06-03 17:12:46,2019-06-03 17:12:49,2.766s,PASSED
+"verifyResponseStatusCode(getRequest_view, 200)",,,,2019-06-03 17:12:49,2019-06-03 17:12:49,0.056s,PASSED
+"verifyElementPropertyValue(getRequest_view, ""ObjReturn.request_id"", 1)",,,,2019-06-03 17:12:49,2019-06-03 17:12:49,0.080s,PASSED
+"verifyElementPropertyValue(getRequest_view, ""ObjReturn.agency_id"", 31)",,,,2019-06-03 17:12:49,2019-06-03 17:12:49,0.041s,PASSED
+"verifyElementPropertyValue(getRequest_view, ""ObjReturn.agency_name"", ""The Coffee House - Chi nhánh số 1"")",,,,2019-06-03 17:12:49,2019-06-03 17:12:49,0.034s,PASSED
+"verifyElementPropertyValue(getRequest_view, ""ObjReturn.agency_address"", ""88 Ngô Tất Tố, Quận Bình Thạnh"")",,,,2019-06-03 17:12:49,2019-06-03 17:12:49,0.067s,PASSED
+"verifyElementPropertyValue(getRequest_view, ""ObjReturn.request_category_id"", 3)",,,,2019-06-03 17:12:49,2019-06-03 17:12:49,0.038s,PASSED
+"verifyElementPropertyValue(getRequest_view, ""ObjReturn.service_id"", 1)",,,,2019-06-03 17:12:49,2019-06-03 17:12:49,0.047s,PASSED
+"verifyElementPropertyValue(getRequest_view, ""ObjReturn.service_name"", ""WIFI"")",,,,2019-06-03 17:12:49,2019-06-03 17:12:49,0.068s,PASSED
+"verifyElementPropertyValue(getRequest_view, ""ObjReturn.service_item_id"", 6)",,,,2019-06-03 17:12:49,2019-06-03 17:12:49,0.074s,PASSED
+"verifyElementPropertyValue(getRequest_view, ""ObjReturn.service_item_name"", ""Wifi chậm"")",,,,2019-06-03 17:12:49,2019-06-03 17:12:49,0.071s,PASSED
+"verifyElementPropertyValue(getRequest_view, ""ObjReturn.request_name"", ""The Coffee House - Chi nhánh số 1 - Wifi chậm"")",,,,2019-06-03 17:12:49,2019-06-03 17:12:49,0.069s,PASSED
+"verifyElementPropertyValue(getRequest_view, ""ObjReturn.request_description"", ""acd"")",,,,2019-06-03 17:12:49,2019-06-03 17:12:49,0.091s,PASSED
+"verifyElementPropertyValue(getRequest_view, ""ObjReturn.agency_phone"", ""0397934468"")",,,,2019-06-03 17:12:49,2019-06-03 17:12:49,0.054s,PASSED
+"verifyElementPropertyValue(getRequest_view, ""ObjReturn.create_date"", ""2019-02-16 09:47:57"")",,,,2019-06-03 17:12:49,2019-06-03 17:12:49,0.069s,FAILED
+"verifyElementPropertyValue(getRequest_view, ""ObjReturn.update_date"", ""2019-05-29 15:48:25"")",,,,2019-06-03 17:12:49,2019-06-03 17:12:49,0.066s,FAILED
+"verifyElementPropertyValue(getRequest_view, ""ObjReturn.start_time"", ""2019-04-02 00:00:00"")",,,,2019-06-03 17:12:49,2019-06-03 17:12:50,0.040s,FAILED
+"verifyElementPropertyValue(getRequest_view, ""ObjReturn.end_time"", ""2019-04-16 09:45:37"")",,,,2019-06-03 17:12:50,2019-06-03 17:12:50,0.070s,FAILED
+"verifyElementPropertyValue(getRequest_view, ""ObjReturn.request_status_value"", 0)",,,,2019-06-03 17:12:50,2019-06-03 17:12:50,0.038s,PASSED
+"verifyElementPropertyValue(getRequest_view, ""ObjReturn.it_supporter_name"", ""Lê Thị Ẫn"")",,,,2019-06-03 17:12:50,2019-06-03 17:12:50,0.027s,PASSED
+"verifyElementPropertyValue(getRequest_view, ""ObjReturn.it_supporter_phone"", ""0928374564"")",,,,2019-06-03 17:12:50,2019-06-03 17:12:50,0.073s,PASSED
+"verifyElementPropertyValue(getRequest_view, ""ObjReturn.rate"", ""6"")",,,,2019-06-03 17:12:50,2019-06-03 17:12:50,0.046s,PASSED
+"verifyElementPropertyValue(getRequest_view, ""ObjReturn.priority_value"", ""3"")",,,,2019-06-03 17:12:50,2019-06-03 17:12:50,0.032s,PASSED
+"verifyElementPropertyValue(getRequest_view, ""ObjReturn.request_problem"", ""string"")",,,,2019-06-03 17:12:50,2019-06-03 17:12:50,0.018s,PASSED
+"verifyElementPropertyValue(getRequest_view, ""ObjReturn.request_solution"", ""string"")",,,,2019-06-03 17:12:50,2019-06-03 17:12:50,0.021s,PASSED
+"verifyElementPropertyValue(getRequest_view, ""ObjReturn.list_ticket[0].ticket_id"", 1)",,,,2019-06-03 17:12:50,2019-06-03 17:12:50,0.028s,PASSED
+"verifyElementPropertyValue(getRequest_view, ""ObjReturn.list_ticket[0].device_id"", 43)",,,,2019-06-03 17:12:50,2019-06-03 17:12:50,0.024s,PASSED
+"verifyElementPropertyValue(getRequest_view, ""ObjReturn.list_ticket[0].device_code"", ""N301"")",,,,2019-06-03 17:12:50,2019-06-03 17:12:50,0.076s,PASSED
+"verifyElementPropertyValue(getRequest_view, ""ObjReturn.list_ticket[0].description"", ""Anh test"")",,,,2019-06-03 17:12:50,2019-06-03 17:12:50,0.066s,PASSED
+"verifyElementPropertyValue(getRequest_view, ""ObjReturn.list_ticket[0].device_name"", ""Router TENDA N301 300Mbps Wireless N"")",,,,2019-06-03 17:12:50,2019-06-03 17:12:50,0.037s,PASSED
+"verifyElementPropertyValue(getRequest_view, ""ObjReturn.list_ticket[0].create_date"", ""2019-01-16 09:48:07"")",,,,2019-06-03 17:12:50,2019-06-03 17:12:50,0.041s,FAILED
+"verifyElementPropertyValue(getRequest_view, ""ObjReturn.list_ticket[0].creator"", ""ADMIN"")",,,,2019-06-03 17:12:50,2019-06-03 17:12:50,0.068s,PASSED
+"verifyElementPropertyValue(getRequest_view, ""ObjReturn.history[5].request_history_id"", 7)",,,,2019-06-03 17:12:50,2019-06-03 17:12:50,0.037s,PASSED
+"verifyElementPropertyValue(getRequest_view, ""ObjReturn.history[5].request_id"", 1)",,,,2019-06-03 17:12:50,2019-06-03 17:12:50,0.028s,PASSED
+"verifyElementPropertyValue(getRequest_view, ""ObjReturn.history[5].pre_supporter_name"", ""Phạm Phú Tiến"")",,,,2019-06-03 17:12:50,2019-06-03 17:12:50,0.021s,PASSED
+"verifyElementPropertyValue(getRequest_view, ""ObjReturn.history[5].pre_status"", 3)",,,,2019-06-03 17:12:50,2019-06-03 17:12:50,0.021s,PASSED
+"verifyElementPropertyValue(getRequest_view, ""ObjReturn.history[5].create_date"", ""2019-01-17 15:39:04"")",,,,2019-06-03 17:12:50,2019-06-03 17:12:50,0.023s,FAILED
+"verifyElementPropertyValue(getRequest_view, ""ObjReturn.history[5].start_date"", ""2019-01-17 15:39:04"")",,,,2019-06-03 17:12:50,2019-06-03 17:12:50,0.019s,FAILED
+"verifyElementPropertyValue(getRequest_view, ""ObjReturn.history[5].end_date"", ""2019-01-17 16:39:04"")",,,,2019-06-03 17:12:50,2019-06-03 17:12:50,0.025s,FAILED
+,,,,,,,
+Test Cases/Request/GetRequestByAgencyID_index,,,,2019-06-03 17:12:50,2019-06-03 17:12:55,4.657s,FAILED
+"a = sendRequest(findTestObject(""Request/GetRequestByAgencyID_index""))",,,,2019-06-03 17:12:51,2019-06-03 17:12:52,0.524s,PASSED
+"verifyResponseStatusCode(a, 200)",,,,2019-06-03 17:12:52,2019-06-03 17:12:52,0.008s,PASSED
+"verifyElementPropertyValue(a, ""ObjReturn[21].request_id"", 2)",,,,2019-06-03 17:12:52,2019-06-03 17:12:52,0.084s,PASSED
+"verifyElementPropertyValue(a, ""ObjReturn[21].agency_id"", 31)",,,,2019-06-03 17:12:52,2019-06-03 17:12:52,0.082s,PASSED
+"verifyElementPropertyValue(a, ""ObjReturn[21].agency_name"", ""The Coffee House - Chi nhánh số 1"")",,,,2019-06-03 17:12:52,2019-06-03 17:12:52,0.176s,PASSED
+"verifyElementPropertyValue(a, ""ObjReturn[21].agency_address"", ""88 Ngô Tất Tố, Quận Bình Thạnh"")",,,,2019-06-03 17:12:52,2019-06-03 17:12:52,0.131s,PASSED
+"verifyElementPropertyValue(a, ""ObjReturn[21].request_category_id"", 3)",,,,2019-06-03 17:12:52,2019-06-03 17:12:52,0.112s,PASSED
+"verifyElementPropertyValue(a, ""ObjReturn[21].service_id"", 2)",,,,2019-06-03 17:12:52,2019-06-03 17:12:52,0.090s,PASSED
+"verifyElementPropertyValue(a, ""ObjReturn[21].service_name"", ""Camera"")",,,,2019-06-03 17:12:52,2019-06-03 17:12:53,0.069s,PASSED
+"verifyElementPropertyValue(a, ""ObjReturn[21].service_item_id"", 3)",,,,2019-06-03 17:12:53,2019-06-03 17:12:53,0.064s,PASSED
+"verifyElementPropertyValue(a, ""ObjReturn[21].service_item_name"", ""Camera không hiện màu"")",,,,2019-06-03 17:12:53,2019-06-03 17:12:53,0.088s,PASSED
+"verifyElementPropertyValue(a, ""ObjReturn[21].request_name"", ""The Coffee House - Chi nhánh số 1 - Camera không hiện màu"")",,,,2019-06-03 17:12:53,2019-06-03 17:12:53,0.079s,PASSED
+"verifyElementPropertyValue(a, ""ObjReturn[21].request_description"", ""dsdsfdsfsfdfdsfdsfdsfdrgvrdfgdfgdfgdfgdffg"")",,,,2019-06-03 17:12:53,2019-06-03 17:12:53,0.099s,PASSED
+"verifyElementPropertyValue(a, ""ObjReturn[21].agency_phone"", ""0397934468"")",,,,2019-06-03 17:12:53,2019-06-03 17:12:53,0.076s,PASSED
+"verifyElementPropertyValue(a, ""ObjReturn[21].create_date"", ""2019-01-16 09:54:15"")",,,,2019-06-03 17:12:53,2019-06-03 17:12:53,0.097s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[21].update_date"", ""2019-06-03 15:22:55"")",,,,2019-06-03 17:12:53,2019-06-03 17:12:53,0.168s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[21].start_time"", ""2018-05-31 06:19:26"")",,,,2019-06-03 17:12:53,2019-06-03 17:12:53,0.060s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[21].end_time"", ""2018-05-31 06:19:26"")",,,,2019-06-03 17:12:53,2019-06-03 17:12:53,0.068s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[21].request_status_value"", 2)",,,,2019-06-03 17:12:53,2019-06-03 17:12:54,0.181s,PASSED
+"verifyElementPropertyValue(a, ""ObjReturn[21].it_supporter_name"", ""Phạm Phú Tiến"")",,,,2019-06-03 17:12:54,2019-06-03 17:12:54,0.103s,PASSED
+"verifyElementPropertyValue(a, ""ObjReturn[21].it_supporter_phone"", ""0916512300"")",,,,2019-06-03 17:12:54,2019-06-03 17:12:54,0.086s,PASSED
+"verifyElementPropertyValue(a, ""ObjReturn[21].feedback"", ""gf"")",,,,2019-06-03 17:12:54,2019-06-03 17:12:54,0.109s,PASSED
+"verifyElementPropertyValue(a, ""ObjReturn[21].rate"", 3)",,,,2019-06-03 17:12:54,2019-06-03 17:12:54,0.069s,PASSED
+"verifyElementPropertyValue(a, ""ObjReturn[21].priority_value"", 1)",,,,2019-06-03 17:12:54,2019-06-03 17:12:54,0.068s,PASSED
+"verifyElementPropertyValue(a, ""ObjReturn[21].request_problem"", ""problem"")",,,,2019-06-03 17:12:54,2019-06-03 17:12:54,0.060s,PASSED
+"verifyElementPropertyValue(a, ""ObjReturn[21].request_solution"", ""solution"")",,,,2019-06-03 17:12:54,2019-06-03 17:12:54,0.089s,PASSED
+"verifyElementPropertyValue(a, ""ObjReturn[21].list_ticket[0].ticket_id"", 2)",,,,2019-06-03 17:12:54,2019-06-03 17:12:54,0.216s,PASSED
+"verifyElementPropertyValue(a, ""ObjReturn[21].list_ticket[0].device_id"", 45)",,,,2019-06-03 17:12:54,2019-06-03 17:12:54,0.144s,PASSED
+"verifyElementPropertyValue(a, ""ObjReturn[21].list_ticket[0].device_code"", ""KX-S2001CA4"")",,,,2019-06-03 17:12:54,2019-06-03 17:12:55,0.280s,PASSED
+"verifyElementPropertyValue(a, ""ObjReturn[21].list_ticket[0].device_name"", ""Camera KBVISION KX-S2001CA4"")",,,,2019-06-03 17:12:55,2019-06-03 17:12:55,0.201s,PASSED
+"verifyElementPropertyValue(a, ""ObjReturn[21].list_ticket[0].create_date"", ""2019-01-16 09:54:15.700"")",,,,2019-06-03 17:12:55,2019-06-03 17:12:55,0.074s,FAILED
+,,,,,,,
+Test Cases/Request/GetRequestByitSupporterID_index,,,,2019-06-03 17:12:55,2019-06-03 17:12:56,1.057s,FAILED
+"a = sendRequest(findTestObject(""Request/GetRequestByitSupporterID_index""))",,,,2019-06-03 17:12:56,2019-06-03 17:12:56,0.353s,PASSED
+"verifyResponseStatusCode(a, 200)",,,,2019-06-03 17:12:56,2019-06-03 17:12:56,0.016s,PASSED
+"verifyElementPropertyValue(a, ""ObjReturn[2].request_id"", 1)",,,,2019-06-03 17:12:56,2019-06-03 17:12:56,0.024s,PASSED
+"verifyElementPropertyValue(a, ""ObjReturn[2].request_name"", ""The Coffee House - Chi nhánh số 1 - Wifi chậm"")",,,,2019-06-03 17:12:56,2019-06-03 17:12:56,0.016s,PASSED
+"verifyElementPropertyValue(a, ""ObjReturn[2].date_create"", ""2019-02-16 09:47:57"")",,,,2019-06-03 17:12:56,2019-06-03 17:12:56,0.042s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[2].agency_name"", ""The Coffee House - Chi nhánh số 1"")",,,,2019-06-03 17:12:56,2019-06-03 17:12:56,0.023s,PASSED
+"verifyElementPropertyValue(a, ""ObjReturn[2].itsupporter_name"", ""Lê Thị Ẫn"")",,,,2019-06-03 17:12:56,2019-06-03 17:12:56,0.032s,PASSED
+"verifyElementPropertyValue(a, ""ObjReturn[2].issue_name[0]"", ""acd"")",,,,2019-06-03 17:12:56,2019-06-03 17:12:56,0.013s,PASSED
+"verifyElementPropertyValue(a, ""ObjReturn[2].request_status"", 0)",,,,2019-06-03 17:12:56,2019-06-03 17:12:56,0.023s,PASSED
+"verifyElementPropertyValue(a, ""ObjReturn[2].request_status_id"", 3)",,,,2019-06-03 17:12:56,2019-06-03 17:12:56,0.016s,PASSED
+,,,,,,,
+Test Cases/Request/PatchRequest,,,,2019-06-03 17:12:56,2019-06-03 17:12:57,0.547s,PASSED
+"a = sendRequest(findTestObject(""Request/PatchRequest""))",,,,2019-06-03 17:12:56,2019-06-03 17:12:57,0.344s,PASSED
+"verifyResponseStatusCode(a, 200)",,,,2019-06-03 17:12:57,2019-06-03 17:12:57,0.004s,PASSED
+,,,,,,,
+Test Cases/Request/PostRequest,,,,2019-06-03 17:12:57,2019-06-03 17:12:57,0.282s,PASSED
+"a = sendRequest(findTestObject(""Request/PostRequest""))",,,,2019-06-03 17:12:57,2019-06-03 17:12:57,0.134s,PASSED
+"verifyResponseStatusCode(a, 200)",,,,2019-06-03 17:12:57,2019-06-03 17:12:57,0.000s,PASSED
+,,,,,,,
+Test Cases/Request/PutRequest,,,,2019-06-03 17:12:57,2019-06-03 17:12:57,0.235s,PASSED
+"a = sendRequest(findTestObject(""Request/PutRequest""))",,,,2019-06-03 17:12:57,2019-06-03 17:12:57,0.089s,PASSED
+"verifyResponseStatusCode(a, 200)",,,,2019-06-03 17:12:57,2019-06-03 17:12:57,0.000s,PASSED
